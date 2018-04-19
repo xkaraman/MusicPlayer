@@ -15,10 +15,12 @@ public class LibraryActivity extends AppCompatActivity {
 
         ArrayList<Song> songs = new ArrayList<>();
 
-        songs.add(new Song("No Roots","Alice","Single"));
-        songs.add(new Song("Greyhound","Swedish House Mafia","Last"));
-        songs.add(new Song("Believers","Imagine Dragons","Single"));
-        songs.add(new Song("Something Just Like This","The Chainsmokers","Single"));
+        songs.add(new Song("No Roots","Alice Merton","No Roots"));
+        songs.add(new Song("Greyhound","Swedish House Mafia","Until Now"));
+        songs.add(new Song("Believers","Imagine Dragons","Evolve"));
+        songs.add(new Song("Something Just Like This","The Chainsmokers"," Memories...Do Not Open"));
+        songs.add(new Song("Right Here, Right Now","Fatboy Slim","You've Come a Long Way, Baby"));
+        songs.add(new Song("Sandstrom","Darude","Before the Storm"));
 
         // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The
         // adapter knows how to create list items for each item in the list.

@@ -49,6 +49,8 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="50dp"
         android:layout_marginStart="16dp"
+        android:tint="@color/colorAccent"
+
         app:srcCompat="@android:drawable/ic_media_play" />
 
 </RelativeLayout>
