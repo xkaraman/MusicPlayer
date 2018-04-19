@@ -17,7 +17,7 @@ public class ArtistsActivity extends AppCompatActivity {
 
         ArrayList<String> artists = new ArrayList<>();
 
-        artists.add("Alice");
+        artists.add("Alice Merton");
         artists.add("Swedish House Mafia");
         artists.add("Imagine Dragons");
         artists.add("The Chainsmokers");

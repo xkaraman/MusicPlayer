@@ -16,22 +16,22 @@ import java.util.ArrayList;
  * Created by xenakis on 19/4/2018.
  */
 
-public class SongAdapter extends ArrayAdapter<Song>{
+public class SongAdapter extends ArrayAdapter<Song> {
 
     /**
      * Constructor
      */
-    public SongAdapter(@NonNull Context context, ArrayList<Song> words ) {
-        super(context,0, words);
+    public SongAdapter(@NonNull Context context, ArrayList<Song> words) {
+        super(context, 0, words);
     }
 
     /**
      * Provides a view for an AdapterView (ListView, GridView, etc.)
      *
-     * @param position The position in the list of data that should be displayed in the
-     *                 list item view.
+     * @param position    The position in the list of data that should be displayed in the
+     *                    list item view.
      * @param convertView The recycled view to populate.
-     * @param parent The parent ViewGroup that is used for inflation.
+     * @param parent      The parent ViewGroup that is used for inflation.
      * @return The View for the position in the AdapterView.
      */
     @Override
@@ -39,7 +39,7 @@ public class SongAdapter extends ArrayAdapter<Song>{
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
 
-        if(listItemView == null) {
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
@@ -48,7 +48,7 @@ public class SongAdapter extends ArrayAdapter<Song>{
         Song currentSong = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView songName =  listItemView.findViewById(R.id.song_name);
+        TextView songName = listItemView.findViewById(R.id.song_name);
         // set this text on the name TextView
         songName.setText(currentSong.getName());
 
@@ -69,7 +69,7 @@ public class SongAdapter extends ArrayAdapter<Song>{
             @Override
             public void onClick(View view) {
                 //Create a new intent to open then {@link NumbersActivity}
-                Intent playIntent = new Intent( play.getContext(), NowPlaying.class);
+                Intent playIntent = new Intent(play.getContext(), NowPlaying.class);
                 //Start the new activity
                 play.getContext().startActivity(playIntent);
             }

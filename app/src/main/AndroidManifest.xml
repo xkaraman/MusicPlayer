@@ -29,8 +29,9 @@
         <activity
             android:name=".SearchActivity"
             android:label="Search Songs" />
-        <activity android:name=".NowPlaying"
-            android:label="Now Playing"/>
+        <activity
+            android:name=".NowPlaying"
+            android:label="Now Playing" />
 
     </application>
 

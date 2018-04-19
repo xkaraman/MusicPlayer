@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-       // Find the View that shows the numbers category
+        // Find the View that shows the numbers category
         ImageView artists = findViewById(R.id.artist);
 
         // Set a click listener on that View

@@ -15,10 +15,10 @@ public class SearchActivity extends AppCompatActivity {
 
         ArrayList<Song> songs = new ArrayList<>();
 
-        songs.add(new Song("No Roots","Alice","Single"));
-        songs.add(new Song("Greyhound","Swedish House Mafia","Last"));
-        songs.add(new Song("Believers","Imagine Dragons","Single"));
-        songs.add(new Song("Something Just Like This","The Chainsmokers","Single"));
+        songs.add(new Song("No Roots", "Alice", "Single"));
+        songs.add(new Song("Greyhound", "Swedish House Mafia", "Last"));
+        songs.add(new Song("Believers", "Imagine Dragons", "Single"));
+        songs.add(new Song("Something Just Like This", "The Chainsmokers", "Single"));
 
         // Create an {@link SongAdapter}, whose data source is a list of {@link Song}s. The
         // adapter knows how to create list items for each item in the list.

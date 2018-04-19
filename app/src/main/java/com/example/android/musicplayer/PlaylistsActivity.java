@@ -22,7 +22,7 @@ public class PlaylistsActivity extends AppCompatActivity {
         playlists.add("Jazz");
         playlists.add("Swing");
 
-        ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,playlists);
+        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, playlists);
 
         ListView listView = findViewById(R.id.playlistlist);
 

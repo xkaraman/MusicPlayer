@@ -10,7 +10,7 @@ public class Song {
     private final String mArtist;
     private final String mAlbum;
 
-    public Song(String name,String artist,String album) {
+    public Song(String name, String artist, String album) {
         mName = name;
         mArtist = artist;
         mAlbum = album;
