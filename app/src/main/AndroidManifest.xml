@@ -19,19 +19,25 @@
 
         <activity
             android:name=".LibraryActivity"
-            android:label="Library" />
+            android:label="Library"
+            android:parentActivityName=".MainActivity"
+            />
         <activity
             android:name=".ArtistsActivity"
-            android:label="Artists" />
+            android:label="Artists"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".PlaylistsActivity"
-            android:label="Playlists" />
+            android:label="Playlists"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".SearchActivity"
-            android:label="Search Songs" />
+            android:label="Search Songs"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".NowPlaying"
-            android:label="Now Playing" />
+            android:label="Now Playing"
+            android:parentActivityName=".LibraryActivity"/>
 
     </application>
 
